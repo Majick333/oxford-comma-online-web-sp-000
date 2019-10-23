@@ -1,6 +1,9 @@
 array = []
 
 def oxford_comma(array)
-return array.join(" and ")
-
+if array.length <= 2
+  return array.join(" and ")
+else array.length > 2
+  return array.join(", ") 
+end
 end

@@ -9,6 +9,6 @@ else array.length >= 3
   #array.join(", ")
   array[-1].insert(0, " and ")
 
-  return array.join(, )
+  return array.join(", ")
 end
 end
